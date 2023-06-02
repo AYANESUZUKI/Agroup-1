@@ -50,6 +50,8 @@ class CreatePhotoView(CreateView):
     #戻り値はスーパークラスのform_validの戻り値
     return super().form_valid(form)
 
+
+#p449で追加
 class PostSuccessView(TemplateView):
   '''投稿完了ページのビュー
 
